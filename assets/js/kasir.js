@@ -251,12 +251,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const sample = {
         id: uid(),
         date: new Date().toISOString().slice(0,10),
-        buyer: 'Contoh',
+        buyer: 'Contoh - Organisasi',
         service: 'Print Hitam Putih',
-        pages: 2,
+        pages: 12,
         unitPrice: 1000,
         discount: 0,
-        total: 2*1000,
+        total: 12*1000,
         notes: 'Contoh transaksi'
       };
       saveTransactions([sample]);
