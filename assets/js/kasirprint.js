@@ -1,6 +1,6 @@
-// assets/js/kasir.js
+// assets/js/kasirprint.js
 // Fokus: form kasir — hitung subtotal, simpan transaksi ke localStorage (tanpa render tabel).
-// storageKey harus sama dengan yang dipakai di recap.js
+// storageKey harus sama dengan yang dipakai di recapprint.js
 
 (function () {
   const storageKey = 'op3_transactions_v1';
